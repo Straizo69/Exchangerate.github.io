@@ -1,0 +1,37 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 2500px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin-top: 100px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#currency-rates {
+    width: 80%;
+    max-width: 600px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.currency {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.currency:last-child {
+    border-bottom: none;
+}
